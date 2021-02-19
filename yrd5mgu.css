@@ -1,0 +1,52 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * modesto-condensed:
+ *   - http://typekit.com/eulas/00000000000000003b9ad935
+ * source-sans-pro:
+ *   - http://typekit.com/eulas/00000000000000003b9b3d63
+ *   - http://typekit.com/eulas/00000000000000003b9b3d67
+ *   - http://typekit.com/eulas/00000000000000003b9b3d68
+ *   - http://typekit.com/eulas/00000000000000003b9b3d64
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-07-24 19:19:32 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"modesto-condensed";
+src:url("../l") format("woff2"),url("../d") format("woff"),url("../a") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"source-sans-pro";
+src:url("../l_1") format("woff2"),url("../d_1") format("woff"),url("../a_2") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"source-sans-pro";
+src:url("../l_2") format("woff2"),url("../d_2") format("woff"),url("../a_4") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"source-sans-pro";
+src:url("../l_4") format("woff2"),url("../d_3") format("woff"),url("../a_1") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"source-sans-pro";
+src:url("../l_3") format("woff2"),url("../d_4") format("woff"),url("../a_3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+.tk-modesto-condensed { font-family: "modesto-condensed",serif; }
+.tk-source-sans-pro { font-family: "source-sans-pro",sans-serif; }
